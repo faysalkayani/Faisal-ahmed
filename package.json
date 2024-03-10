@@ -1,0 +1,16 @@
+{
+  "name": "cypressamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "install": "npm install cypress --save",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/cypress run --headed --no-exit --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
